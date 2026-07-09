@@ -1,0 +1,16 @@
+{
+  "name": "woocommerce-stripe-fixes",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Tested Python and Node.js scripts that fix WooCommerce and Stripe payment problems.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "stripe": "^17.7.0"
+  },
+  "author": "Allan Niñal",
+  "license": "MIT",
+  "homepage": "https://www.allanninal.dev/woocommerce/"
+}
