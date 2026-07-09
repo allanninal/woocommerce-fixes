@@ -41,6 +41,8 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [missing-intent-id-webhook-cannot-match-order](./missing-intent-id-webhook-cannot-match-order/) | Recover the lost PaymentIntent ID and backfill it | Repair | [Read](https://www.allanninal.dev/woocommerce/missing-intent-id-webhook-cannot-match-order/) |
 | [stripe-webhook-not-delivered-configuration](./stripe-webhook-not-delivered-configuration/) | Check the webhook endpoint and its deliveries | Diagnostic | [Read](https://www.allanninal.dev/woocommerce/stripe-webhook-not-delivered-configuration/) |
 | [duplicate-charge-redirect-webhook-race](./duplicate-charge-redirect-webhook-race/) | Find double charges and refund the extra | Reconciler | [Read](https://www.allanninal.dev/woocommerce/duplicate-charge-redirect-webhook-race/) |
+| [stripe-webhook-signing-secret-mismatch](./stripe-webhook-signing-secret-mismatch/) | Find the signing secret mismatch that rejects every webhook | Diagnostic | [Read](https://www.allanninal.dev/woocommerce/stripe-webhook-signing-secret-mismatch/) |
+| [stripe-dashboard-refund-not-synced](./stripe-dashboard-refund-not-synced/) | Record Stripe dashboard refunds missing from WooCommerce | Reconciler | [Read](https://www.allanninal.dev/woocommerce/stripe-dashboard-refund-not-synced/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
