@@ -56,6 +56,7 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [late-failure-reverts-paid-order](./late-failure-reverts-paid-order/) | Restore paid orders a late failure event reverted | Reconciler | [Read](https://www.allanninal.dev/woocommerce/late-failure-reverts-paid-order/) |
 | [order-marked-paid-no-charge](./order-marked-paid-no-charge/) | Flag paid orders with no matching Stripe charge | Diagnostic | [Read](https://www.allanninal.dev/woocommerce/order-marked-paid-no-charge/) |
 | [overselling-race-stock-negative](./overselling-race-stock-negative/) | Reset products/variations that oversold below zero | Repair | [Read](https://www.allanninal.dev/woocommerce/overselling-race-stock-negative/) |
+| [subscriptions-revert-to-manual-renewal](./subscriptions-revert-to-manual-renewal/) | Restore auto renewal for tokened subs stuck on manual | Repair | [Read](https://www.allanninal.dev/woocommerce/subscriptions-revert-to-manual-renewal/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
