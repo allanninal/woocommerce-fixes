@@ -55,6 +55,7 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [authorized-charges-never-captured](./authorized-charges-never-captured/) | Capture on-hold orders before the Stripe auth expires | Reconciler | [Read](https://www.allanninal.dev/woocommerce/authorized-charges-never-captured/) |
 | [late-failure-reverts-paid-order](./late-failure-reverts-paid-order/) | Restore paid orders a late failure event reverted | Reconciler | [Read](https://www.allanninal.dev/woocommerce/late-failure-reverts-paid-order/) |
 | [order-marked-paid-no-charge](./order-marked-paid-no-charge/) | Flag paid orders with no matching Stripe charge | Diagnostic | [Read](https://www.allanninal.dev/woocommerce/order-marked-paid-no-charge/) |
+| [overselling-race-stock-negative](./overselling-race-stock-negative/) | Reset products/variations that oversold below zero | Repair | [Read](https://www.allanninal.dev/woocommerce/overselling-race-stock-negative/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
