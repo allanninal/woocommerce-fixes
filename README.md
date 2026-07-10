@@ -44,6 +44,7 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [stripe-webhook-signing-secret-mismatch](./stripe-webhook-signing-secret-mismatch/) | Find the signing secret mismatch that rejects every webhook | Diagnostic | [Read](https://www.allanninal.dev/woocommerce/stripe-webhook-signing-secret-mismatch/) |
 | [stripe-dashboard-refund-not-synced](./stripe-dashboard-refund-not-synced/) | Record Stripe dashboard refunds missing from WooCommerce | Reconciler | [Read](https://www.allanninal.dev/woocommerce/stripe-dashboard-refund-not-synced/) |
 | [orders-stuck-requires-action-3ds](./orders-stuck-requires-action-3ds/) | Resolve orders stuck on 3D Secure, free held stock | Reconciler | [Read](https://www.allanninal.dev/woocommerce/orders-stuck-requires-action-3ds/) |
+| [subscription-on-hold-after-successful-renewal](./subscription-on-hold-after-successful-renewal/) | Reactivate subscriptions paid but stuck On-Hold (HPOS) | Reconciler | [Read](https://www.allanninal.dev/woocommerce/subscription-on-hold-after-successful-renewal/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
