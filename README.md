@@ -46,6 +46,7 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [orders-stuck-requires-action-3ds](./orders-stuck-requires-action-3ds/) | Resolve orders stuck on 3D Secure, free held stock | Reconciler | [Read](https://www.allanninal.dev/woocommerce/orders-stuck-requires-action-3ds/) |
 | [subscription-on-hold-after-successful-renewal](./subscription-on-hold-after-successful-renewal/) | Reactivate subscriptions paid but stuck On-Hold (HPOS) | Reconciler | [Read](https://www.allanninal.dev/woocommerce/subscription-on-hold-after-successful-renewal/) |
 | [declined-card-order-stuck-pending](./declined-card-order-stuck-pending/) | Fail declined-card orders left on Pending, free stock | Repair | [Read](https://www.allanninal.dev/woocommerce/declined-card-order-stuck-pending/) |
+| [subscription-missing-saved-card-token](./subscription-missing-saved-card-token/) | Recover the lost Stripe card so renewals work again | Reconciler | [Read](https://www.allanninal.dev/woocommerce/subscription-missing-saved-card-token/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
