@@ -52,6 +52,7 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [stripe-fee-net-stale-after-refund](./stripe-fee-net-stale-after-refund/) | Recompute stale Stripe fee and net after a refund | Repair | [Read](https://www.allanninal.dev/woocommerce/stripe-fee-net-stale-after-refund/) |
 | [replay-missed-stripe-webhook-events](./replay-missed-stripe-webhook-events/) | Replay Stripe events missed during downtime | Reconciler | [Read](https://www.allanninal.dev/woocommerce/replay-missed-stripe-webhook-events/) |
 | [new-card-not-linked-to-subscription](./new-card-not-linked-to-subscription/) | Repoint a subscription to the customer's current card | Reconciler | [Read](https://www.allanninal.dev/woocommerce/new-card-not-linked-to-subscription/) |
+| [authorized-charges-never-captured](./authorized-charges-never-captured/) | Capture on-hold orders before the Stripe auth expires | Reconciler | [Read](https://www.allanninal.dev/woocommerce/authorized-charges-never-captured/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
