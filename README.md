@@ -48,6 +48,7 @@ Python needs `pip install stripe requests`. Node needs `npm install stripe` and 
 | [declined-card-order-stuck-pending](./declined-card-order-stuck-pending/) | Fail declined-card orders left on Pending, free stock | Repair | [Read](https://www.allanninal.dev/woocommerce/declined-card-order-stuck-pending/) |
 | [subscription-missing-saved-card-token](./subscription-missing-saved-card-token/) | Recover the lost Stripe card so renewals work again | Reconciler | [Read](https://www.allanninal.dev/woocommerce/subscription-missing-saved-card-token/) |
 | [cancel-abandoned-payment-intents](./cancel-abandoned-payment-intents/) | Cancel abandoned PaymentIntents and their pending orders | Reconciler | [Read](https://www.allanninal.dev/woocommerce/cancel-abandoned-payment-intents/) |
+| [refund-webhook-skips-non-card-methods](./refund-webhook-skips-non-card-methods/) | Record refunds on iDEAL/EPS/SEPA the webhook skipped | Repair | [Read](https://www.allanninal.dev/woocommerce/refund-webhook-skips-non-card-methods/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
