@@ -8,7 +8,6 @@ By **[Allan Niñal](https://github.com/allanninal)** — AI Solutions Engineer. 
 Full write ups with diagrams for each fix live at **[allanninal.dev/woocommerce](https://www.allanninal.dev/woocommerce/)**.
 
 [![Follow on GitHub](https://img.shields.io/github/followers/allanninal?label=Follow%20%40allanninal&style=social)](https://github.com/allanninal)
-[![Tests](https://github.com/allanninal/woocommerce-fixes/actions/workflows/tests.yml/badge.svg)](https://github.com/allanninal/woocommerce-fixes/actions/workflows/tests.yml)
 
 ## How the scripts work
 
@@ -202,6 +201,17 @@ Fighting a WooCommerce, WooCommerce Subscriptions, or WooCommerce Stripe bug you
 - GitHub: [github.com/allanninal](https://github.com/allanninal)
 - LinkedIn: [in/allanninal](https://www.linkedin.com/in/allanninal/)
 - Support the work: [ko-fi.com/allanninal](https://ko-fi.com/allanninal)
+
+## Tests
+
+Every fix ships with its test. Run them locally:
+
+```bash
+pip install stripe requests pytest
+pytest -q
+npm install
+node --test
+```
 
 ## License
 
